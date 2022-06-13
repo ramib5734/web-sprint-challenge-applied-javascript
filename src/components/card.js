@@ -37,9 +37,8 @@ const Card = (article) => {
   cardAuthor.appendChild(cardSpan);
 
   cardHeadline.textContent = article.headline;
-  cardImg.textContent = article.authorPhoto;
+  cardImg.src = article.authorPhoto;
   cardSpan.textContent = `By ${article.authorName}`;
-
 
   return cardDiv;
 }
