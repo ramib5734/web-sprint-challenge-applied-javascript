@@ -28,7 +28,7 @@ const Card = (article) => {
   cardDiv.classList.add("card");
   cardHeadline.classList.add("headline");
   cardAuthor.classList.add("author");
-  cardImgContainer.add("img-container");
+  cardImgContainer.classList.add("img-container");
 
   cardDiv.appendChild(cardHeadline);
   cardDiv.appendChild(cardAuthor);
