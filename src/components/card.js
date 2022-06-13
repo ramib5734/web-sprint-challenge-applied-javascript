@@ -33,8 +33,8 @@ const Card = (article) => {
   cardDiv.appendChild(cardHeadline);
   cardDiv.appendChild(cardAuthor);
   cardAuthor.appendChild(cardImgContainer);
-  cardAuthor.appendChild(cardSpan);
   cardImgContainer.appendChild(cardImg);
+  cardAuthor.appendChild(cardSpan);
 
   cardHeadline.textContent = article.headline;
   cardImg.textContent = article.authorPhoto;
